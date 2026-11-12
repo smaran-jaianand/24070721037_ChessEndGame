@@ -5,7 +5,7 @@ This folder contains only the UCI king-rook versus king-pawn classification proj
 ## Folder layout
 
 - `code/` contains the complete experiment script, executed notebook, notebook builder, report builder, presentation source, and dependencies.
-- `report/Chess_Endgame_Report.pdf` is the continuous eight-page technical report, including core implementation excerpts, the supplied institute header on every page, and the dataset as its only reference.
+- `report/Chess_Endgame_Report.pdf` is the continuous eight-page technical report, written in simple English, including core implementation excerpts, all four supplied output screenshots, the institute header on every page, and the dataset as its only reference.
 - `report/Chess_Endgame_Presentation.pptx` contains ten slides and speaker notes for an approximately 11-minute presentation.
 - `data/` contains the original UCI archive, raw records and accompanying metadata.
 - `outputs/` contains the measured results, every grid-search candidate, figures, categorical associations, permutation importance and fitted pipeline.
