@@ -1,0 +1,7 @@
+params,mean_test_score,std_test_score,rank_test_score
+"{'model__C': 0.1, 'model__class_weight': None}",0.9511830569511238,0.011922563175293438,6
+"{'model__C': 0.1, 'model__class_weight': 'balanced'}",0.9531635955895142,0.010854232169607882,5
+"{'model__C': 1, 'model__class_weight': None}",0.9619166019038883,0.005061922630183131,4
+"{'model__C': 1, 'model__class_weight': 'balanced'}",0.962629793421525,0.005066891659816695,3
+"{'model__C': 10, 'model__class_weight': None}",0.9716234776652886,0.0031723933437845958,1
+"{'model__C': 10, 'model__class_weight': 'balanced'}",0.9711824007788156,0.0034927115535309124,2

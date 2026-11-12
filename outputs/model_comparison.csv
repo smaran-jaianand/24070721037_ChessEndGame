@@ -1,0 +1,6 @@
+model,baseline_cv_f1,baseline_cv_recall,tuned_cv_f1,tuned_cv_sd,best_params
+Logistic Regression,0.9619166019038883,0.9614687649022413,0.9716234776652886,0.0031723933437845958,"{'model__C': 10, 'model__class_weight': None}"
+Decision Tree,0.9940333434271494,0.9957191592384727,0.9948826747274377,0.003181496983015131,"{'model__class_weight': 'balanced', 'model__max_depth': None, 'model__min_samples_leaf': 1}"
+KNN,0.9446899866513865,0.9503356443270606,0.9448983043474735,0.01033104859241493,"{'model__n_neighbors': 11, 'model__weights': 'distance'}"
+Random Forest,0.9885308520774148,0.9922966875756576,0.9893657806041409,0.005003736239025392,"{'model__class_weight': 'balanced', 'model__max_depth': None, 'model__min_samples_leaf': 1}"
+Gradient Boosting,0.9775683477951524,0.9691757455705954,0.9862216240992862,0.0021767429764158056,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 150}"

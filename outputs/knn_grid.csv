@@ -1,0 +1,7 @@
+params,mean_test_score,std_test_score,rank_test_score
+"{'model__n_neighbors': 3, 'model__weights': 'uniform'}",0.9332568333411558,0.0059832087639156515,5
+"{'model__n_neighbors': 3, 'model__weights': 'distance'}",0.9332568333411558,0.0059832087639156515,5
+"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",0.9446899866513865,0.008524498559620695,2
+"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9446899866513865,0.008524498559620695,2
+"{'model__n_neighbors': 11, 'model__weights': 'uniform'}",0.9400203285378146,0.009652555167834982,4
+"{'model__n_neighbors': 11, 'model__weights': 'distance'}",0.9448983043474735,0.01033104859241493,1

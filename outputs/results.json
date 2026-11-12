@@ -1,0 +1,394 @@
+{
+  "data_source": "https://archive.ics.uci.edu/static/public/22/chess+king+rook+vs+king+pawn.zip",
+  "data_sha256": "70a5540902b4063d3977d3e820ac5b9fe5624eb5d93709eee5d50d7a94fca205",
+  "versions": {
+    "python": "3.14.0",
+    "sklearn": "1.8.0",
+    "pandas": "3.0.1",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  },
+  "data": {
+    "rows": 3196,
+    "features": 36,
+    "columns": 37,
+    "missing_entries": 0,
+    "duplicate_rows": 0,
+    "duplicate_features": 0,
+    "conflicting_features": 0,
+    "classes": {
+      "won": 1669,
+      "nowin": 1527
+    },
+    "category_counts": {
+      "bkblk": {
+        "f": 2839,
+        "t": 357
+      },
+      "bknwy": {
+        "f": 2971,
+        "t": 225
+      },
+      "bkon8": {
+        "f": 3076,
+        "t": 120
+      },
+      "bkona": {
+        "f": 2874,
+        "t": 322
+      },
+      "bkspr": {
+        "f": 2129,
+        "t": 1067
+      },
+      "bkxbq": {
+        "f": 1722,
+        "t": 1474
+      },
+      "bkxcr": {
+        "f": 2026,
+        "t": 1170
+      },
+      "bkxwp": {
+        "f": 2500,
+        "t": 696
+      },
+      "blxwp": {
+        "f": 1980,
+        "t": 1216
+      },
+      "bxqsq": {
+        "f": 2225,
+        "t": 971
+      },
+      "cntxt": {
+        "f": 1817,
+        "t": 1379
+      },
+      "dsopp": {
+        "f": 2860,
+        "t": 336
+      },
+      "dwipd": {
+        "l": 2205,
+        "g": 991
+      },
+      "hdchk": {
+        "f": 3181,
+        "t": 15
+      },
+      "katri": {
+        "n": 2526,
+        "w": 446,
+        "b": 224
+      },
+      "mulch": {
+        "f": 3040,
+        "t": 156
+      },
+      "qxmsq": {
+        "f": 3099,
+        "t": 97
+      },
+      "r2ar8": {
+        "t": 2196,
+        "f": 1000
+      },
+      "reskd": {
+        "f": 3170,
+        "t": 26
+      },
+      "reskr": {
+        "f": 2714,
+        "t": 482
+      },
+      "rimmx": {
+        "f": 2612,
+        "t": 584
+      },
+      "rkxwp": {
+        "f": 2556,
+        "t": 640
+      },
+      "rxmsq": {
+        "f": 3013,
+        "t": 183
+      },
+      "simpl": {
+        "f": 1975,
+        "t": 1221
+      },
+      "skach": {
+        "f": 3185,
+        "t": 11
+      },
+      "skewr": {
+        "t": 2216,
+        "f": 980
+      },
+      "skrxp": {
+        "f": 3021,
+        "t": 175
+      },
+      "spcop": {
+        "f": 3195,
+        "t": 1
+      },
+      "stlmt": {
+        "f": 3149,
+        "t": 47
+      },
+      "thrsk": {
+        "f": 3060,
+        "t": 136
+      },
+      "wkcti": {
+        "f": 2631,
+        "t": 565
+      },
+      "wkna8": {
+        "f": 3021,
+        "t": 175
+      },
+      "wknck": {
+        "f": 1984,
+        "t": 1212
+      },
+      "wkovl": {
+        "t": 2007,
+        "f": 1189
+      },
+      "wkpos": {
+        "t": 2345,
+        "f": 851
+      },
+      "wtoeg": {
+        "n": 2407,
+        "t": 789
+      }
+    },
+    "train_counts": {
+      "1": 1168,
+      "0": 1069
+    },
+    "test_counts": {
+      "1": 501,
+      "0": 458
+    },
+    "top_associations": [
+      {
+        "feature": "rimmx",
+        "cramers_v": 0.4522839614969125,
+        "categories": 2
+      },
+      {
+        "feature": "bxqsq",
+        "cramers_v": 0.380101173712726,
+        "categories": 2
+      },
+      {
+        "feature": "wknck",
+        "cramers_v": 0.3652650510344649,
+        "categories": 2
+      },
+      {
+        "feature": "bkxwp",
+        "cramers_v": 0.2329082245091176,
+        "categories": 2
+      },
+      {
+        "feature": "katri",
+        "cramers_v": 0.21970704416979467,
+        "categories": 3
+      },
+      {
+        "feature": "wkna8",
+        "cramers_v": 0.19655672930730367,
+        "categories": 2
+      },
+      {
+        "feature": "r2ar8",
+        "cramers_v": 0.16452646127484094,
+        "categories": 2
+      },
+      {
+        "feature": "bkxcr",
+        "cramers_v": 0.1638283044222949,
+        "categories": 2
+      },
+      {
+        "feature": "mulch",
+        "cramers_v": 0.15833690126665592,
+        "categories": 2
+      },
+      {
+        "feature": "wkpos",
+        "cramers_v": 0.14654305257983552,
+        "categories": 2
+      }
+    ]
+  },
+  "models": {
+    "Logistic Regression": {
+      "best_params": {
+        "model__C": 10,
+        "model__class_weight": null
+      },
+      "best_cv_f1": 0.9716234776652886,
+      "fold_sd": 0.0031723933437845958,
+      "candidates": 6
+    },
+    "Decision Tree": {
+      "best_params": {
+        "model__class_weight": "balanced",
+        "model__max_depth": null,
+        "model__min_samples_leaf": 1
+      },
+      "best_cv_f1": 0.9948826747274377,
+      "fold_sd": 0.003181496983015131,
+      "candidates": 12
+    },
+    "KNN": {
+      "best_params": {
+        "model__n_neighbors": 11,
+        "model__weights": "distance"
+      },
+      "best_cv_f1": 0.9448983043474735,
+      "fold_sd": 0.01033104859241493,
+      "candidates": 6
+    },
+    "Random Forest": {
+      "best_params": {
+        "model__class_weight": "balanced",
+        "model__max_depth": null,
+        "model__min_samples_leaf": 1
+      },
+      "best_cv_f1": 0.9893657806041409,
+      "fold_sd": 0.005003736239025392,
+      "candidates": 8
+    },
+    "Gradient Boosting": {
+      "best_params": {
+        "model__learning_rate": 0.1,
+        "model__max_depth": 3,
+        "model__n_estimators": 150
+      },
+      "best_cv_f1": 0.9862216240992862,
+      "fold_sd": 0.0021767429764158056,
+      "candidates": 8
+    }
+  },
+  "weighting": {
+    "Logistic Regression": {
+      "None": 0.9716234776652886,
+      "balanced": 0.9711824007788156
+    },
+    "Decision Tree": {
+      "None": 0.9940333434271494,
+      "balanced": 0.9948826747274377
+    },
+    "Random Forest": {
+      "None": 0.9885308520774148,
+      "balanced": 0.9893657806041409
+    }
+  },
+  "selected": "Decision Tree",
+  "test_metrics": {
+    "accuracy": 0.9937434827945777,
+    "precision": 0.9959919839679359,
+    "recall": 0.9920159680638723,
+    "f1": 0.994,
+    "roc_auc": 0.993824577918399
+  },
+  "confusion_matrix_rows_actual_cols_predicted_nowin_won": [
+    [
+      456,
+      2
+    ],
+    [
+      4,
+      497
+    ]
+  ],
+  "classification_report": {
+    "nowin": {
+      "precision": 0.991304347826087,
+      "recall": 0.9956331877729258,
+      "f1-score": 0.9934640522875817,
+      "support": 458.0
+    },
+    "won": {
+      "precision": 0.9959919839679359,
+      "recall": 0.9920159680638723,
+      "f1-score": 0.994,
+      "support": 501.0
+    },
+    "accuracy": 0.9937434827945777,
+    "macro avg": {
+      "precision": 0.9936481658970114,
+      "recall": 0.993824577918399,
+      "f1-score": 0.9937320261437909,
+      "support": 959.0
+    },
+    "weighted avg": {
+      "precision": 0.9937532588866358,
+      "recall": 0.9937434827945777,
+      "f1-score": 0.9937440416555917,
+      "support": 959.0
+    }
+  },
+  "permutation_top10": [
+    {
+      "feature": "rimmx",
+      "mean_auc_decrease": 0.20307739688018425,
+      "sd_auc_decrease": 0.009674977675771997
+    },
+    {
+      "feature": "wknck",
+      "mean_auc_decrease": 0.194034783417154,
+      "sd_auc_decrease": 0.00817001023600419
+    },
+    {
+      "feature": "bxqsq",
+      "mean_auc_decrease": 0.18017749072451889,
+      "sd_auc_decrease": 0.007329330703185036
+    },
+    {
+      "feature": "wkpos",
+      "mean_auc_decrease": 0.03286934137547315,
+      "sd_auc_decrease": 0.0033287032211342022
+    },
+    {
+      "feature": "wkna8",
+      "mean_auc_decrease": 0.03152835522550234,
+      "sd_auc_decrease": 0.002697759761145801
+    },
+    {
+      "feature": "bkxbq",
+      "mean_auc_decrease": 0.02713553969208593,
+      "sd_auc_decrease": 0.002692885074704141
+    },
+    {
+      "feature": "katri",
+      "mean_auc_decrease": 0.0252358456304276,
+      "sd_auc_decrease": 0.0031362789009006208
+    },
+    {
+      "feature": "wkovl",
+      "mean_auc_decrease": 0.023497401122064384,
+      "sd_auc_decrease": 0.003176422211849095
+    },
+    {
+      "feature": "bkxcr",
+      "mean_auc_decrease": 0.015647162734211274,
+      "sd_auc_decrease": 0.0018986691921714961
+    },
+    {
+      "feature": "bkblk",
+      "mean_auc_decrease": 0.015423592407615564,
+      "sd_auc_decrease": 0.0019721237485423363
+    }
+  ]
+}
